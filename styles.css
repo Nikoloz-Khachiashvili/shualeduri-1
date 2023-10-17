@@ -1,0 +1,341 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow&family=Barlow+Semi+Condensed:wght@200;500&family=Kumbh+Sans:wght@400;700&family=Open+Sans:ital@1&family=Outfit:wght@700&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.header-photo{
+    margin: 24px 27px;
+}
+
+header{
+    display: flex;
+    flex-direction: row;
+    position: relative;
+}
+
+.header-div{
+    width: 150px;
+    height: 48px;
+    background: #E8EFF2;
+    border-radius: 8px;
+    position: absolute;
+    left: 200.5px ;
+    top: 23px;
+    display: flex;
+    justify-content: center;
+    align-items: center;    
+}
+
+.header-text-div{
+    color: #162542;
+    font-family: Barlow;
+    font-size: 16px;
+    font-weight: bold;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 26px; /* 162.5% */
+    text-transform: uppercase;
+}
+
+.typemaster-keyboard{
+    color: #162542;
+    font-family: Barlow;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: 48px; /* 100% */
+    text-transform: uppercase;
+    margin-left: 24px;
+}
+
+.typemaster-keyboard-text{
+    color: #7B8BAD;
+    font-family: Barlow;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 26px; /* 162.5% */
+    margin-left: 24px;
+}
+
+.typemaster-keyboard-div{
+    display: flex;
+    flex-direction: column;
+    row-gap: 32px;
+    margin-top: 60px;
+}
+
+.typemaster-keyboard-release-date{
+    color: #7B8BAD;
+    font-family: Barlow;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 26px;
+    text-transform: uppercase;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.typamaster-keyboard-button-div{
+    display: flex;
+    flex-direction: row;
+    column-gap: 32px;
+    margin-left: 24px;
+}
+
+.typemaster-keyboard-button{
+    width: 150px;
+    height: 48px;
+    background: #F16718;
+    border-radius: 8px;
+    color: white;
+    color: #FFF;
+    font-family: Barlow;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 26px;
+    text-transform: uppercase;
+    outline: none;
+}
+
+.keyboard-photos-first{
+    background: url(<path-to-image>), lightgray 0px 0px / 100% 100% no-repeat;
+    border-radius: 15px 0px 0px 15px;
+    margin-left: 24px;
+    margin-top: 60px;
+    
+}
+
+
+.keyboard-photos{
+    display: flex;
+    flex-direction: column;
+    row-gap: 24px;
+}
+
+.keyboard-photos-row{
+    display: flex;
+    flex-direction: row;
+    column-gap: 25px;
+}
+
+.keyboard-photos-third{
+    background: url(<path-to-image>), lightgray 0px 0px / 100% 100% no-repeat;
+    border-radius: 15px;
+}
+
+.keyboard-photos-second{
+    background: url(<path-to-image>), #e66218 0px 0px / 100% 100% no-repeat;
+    mix-blend-mode: multiply;
+    border-radius: 0 15px 15px 0;
+}
+
+.mechanical-wireless-keyboard-text{
+    color: #162542;
+    text-align: center;
+    font-family: Barlow;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: 36px; /* 112.5% */
+    text-transform: uppercase;
+}
+
+.mechanical-wireless-keyboard{
+    display: flex;
+    flex-direction: column;
+    row-gap: 24px;
+    margin-top: 60px;
+}
+
+.mechanical-wireless-keyboard-description{
+    color: #7B8BAD;
+    text-align: center;
+    font-family: Barlow;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 26px; /* 162.5% */
+    margin-left: 24px;
+    margin-right: 24px;
+}
+
+.highly-compatible{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 105px;
+    row-gap: 24px;
+}
+
+.logo1{
+    margin-bottom: 24px;
+}
+
+.highly-compatible-text{
+    color: #162542;
+    font-family: Barlow;
+    text-align: center;
+    font-style: normal;
+    font-weight: 900;
+    line-height: 28px; /* 116.667% */
+    text-transform: uppercase;
+    font-size: 24px;
+}
+
+.highly-compatible-description{
+    color: #7B8BAD;
+    font-family: Barlow;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 26px; /* 162.5% */
+    text-align: center;
+    margin-right: 24px;
+    margin-left: 24px;
+}
+
+.wireless-with-bluetooth{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 64px;
+    row-gap: 24px;
+}
+
+.wireless-with-bluetooth-text{
+    color: #162542;
+    font-family: Barlow;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: 28px; /* 116.667% */
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.wireless-with-bluetooth-description{
+    color: #7B8BAD;
+    font-family: Barlow;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 26px; /* 162.5% */
+    text-align: center;
+    margin-right: 24px;
+    margin-left: 24px;
+}
+
+.logo2{
+    margin-bottom: 24px;
+}
+
+.high-capacity-battery{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 64px;
+    row-gap: 24px;
+}
+
+.high-capacity-battery-text{
+    color: #162542;
+    font-family: Barlow;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: 28px; /* 116.667% */
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.high-capacity-battery-description{
+    color: #7B8BAD;
+    font-family: Barlow;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 26px; /* 162.5% */
+    text-align: center;
+    margin-right: 24px;
+    margin-left: 24px;
+}
+
+.logo3{
+    margin-bottom: 24px;
+}
+
+.rgb-backlit-modes{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 64px;
+    row-gap: 24px;
+}
+
+.rgb-backlit-modes-text{
+    color: #162542;
+    font-family: Barlow;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: 28px; /* 116.667% */
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.rgb-backlit-modes-description{
+    color: #7B8BAD;
+    font-family: Barlow;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 26px; /* 162.5% */
+    text-align: center;
+    margin-right: 24px;
+    margin-left: 24px;
+}
+
+.logo4{
+    margin-bottom: 24px;
+}
+
+.footer-text{
+    color: #7B8BAD;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 26px; /* 162.5% */
+    font-family: Barlow;
+}
+
+span{
+    color: #7B8BAD;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 26px;
+    font-family: Barlow;
+}
+
+footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 85px;
+    margin-bottom: 50px;
+}
+
+
